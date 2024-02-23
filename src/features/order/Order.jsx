@@ -8,9 +8,9 @@ import {
 
 const order = {
   id: 'ABCDEF',
-  customer: 'Jonas',
+  customer: 'Elena',
   phone: '123456789',
-  address: 'Arroios, Lisbon , Portugal',
+  address: 'Ontario, Toronto , Canada',
   priority: true,
   estimatedDelivery: '2027-04-25T10:00:00',
   cart: [

@@ -1,5 +1,7 @@
-function MenuItem({ pizza }) {
-  const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
+import { formatCurrency } from "../../utils/helpers";
+
+function MenuItem({ sushi }) {
+  const { id, name, unitPrice, ingredients, soldOut, imageUrl } = sushi;
 
   return (
     <li>
